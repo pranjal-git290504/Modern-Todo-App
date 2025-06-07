@@ -128,11 +128,11 @@ function deleteTodo(i) {
 }
 
 // Add some sample todos for demonstration
-if (todoList.length === 0) {
-    todoList = [
-        { item: "Complete project documentation", dueDate: "2025-06-10", completed: false, id: 1 },
-        { item: "Review code changes", dueDate: "2025-06-08", completed: false, id: 2 },
-        { item: "Team meeting at 3 PM", dueDate: "2025-06-07", completed: true, id: 3 }
-    ];
-    displayItems();
-}
+// if (todoList.length === 0) {
+//     todoList = [
+//         { item: "Complete project documentation", dueDate: "2025-06-10", completed: false, id: 1 },
+//         { item: "Review code changes", dueDate: "2025-06-08", completed: false, id: 2 },
+//         { item: "Team meeting at 3 PM", dueDate: "2025-06-07", completed: true, id: 3 }
+//     ];
+//     displayItems();
+// }
