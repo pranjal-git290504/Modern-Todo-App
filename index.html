@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title>Modern Todo App</title>
+
+</head>
+<body>
+    <div class="app-container">
+        <h1 class="main-heading"> Modern Todo App</h1>
+        
+        <div class="input-container">
+            <input type="text" id="todo-input" class="input-field" placeholder="What needs to be done?">
+            <input type="date" id="todo-date" class="input-field">
+            <button class="add-btn" onclick="addTodo()">
+                <span>+ Add Task</span>
+            </button>
+        </div>
+        
+        <div class="todo-container" id="todo-container">
+            <!-- Todo items will be dynamically added here -->
+        </div>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+</html>
